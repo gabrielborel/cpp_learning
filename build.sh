@@ -6,5 +6,5 @@ cd "$SCRIPT_DIR"
 mkdir -p build
 cd build
 
-cmake ..
-make
+cmake -G Ninja ..
+ninja

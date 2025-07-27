@@ -1,5 +1,14 @@
 ### Como rodar o projeto
 
+#### Requisitos
+
+Antes de compilar, certifique-se de ter instalados:
+
+- [CMake](https://cmake.org/download/)
+- Um compilador C++ (ex: `gcc`/`g++` no Linux, `clang` no macOS, Visual Studio no Windows)
+- Ferramenta de build:
+  - **Ninja** (recomendado para builds mais rápidos)
+
 Para compilar o projeto, execute os seguintes comandos no terminal:
 
 ```bash
